@@ -1,0 +1,44 @@
+@import "../abstracts/abstracts";
+
+.authContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+
+  .auth-box {
+    width: 35rem;
+    margin: 2rem;
+  }
+
+  .header {
+    @include fontValues(3rem, 500, 1, $blackColor);
+    margin-bottom: 3.5rem;
+    text-transform: uppercase;
+  }
+
+  form {
+    .form-control {
+      margin-bottom: 2rem;
+    }
+
+    input {
+      margin-bottom: 0.5rem;
+    }
+
+    button {
+      margin-top: 0.8rem;
+    }
+  }
+
+  .toggle-link {
+    text-align: end;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}

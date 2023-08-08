@@ -1,0 +1,64 @@
+@import "../../styles/abstracts/abstracts";
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem !important;
+
+  @include respond("big-desktop") {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @include respond("tab-port") {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include respond("phone") {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+
+  &__search {
+    display: flex;
+    margin-left: 1rem;
+
+    .select {
+      background-color: $whiteColor;
+      border: 1px solid $grayColor2;
+      height: fit-content;
+      border-radius: 5px;
+      font-size: 16px;
+      margin-left: 1rem;
+      padding: 0.7rem 1rem;
+
+      option {
+        background-color: $whiteColor;
+        color: $blackColor;
+        padding: 8px;
+
+        &:checked {
+          background-color: $primaryColor;
+          color: $whiteColor;
+        }
+      }
+    }
+  }
+
+  &__btn button {
+    margin-left: 1rem;
+  }
+}
+
+.disable {
+  button {
+    background-color: $grayColor3;
+    pointer-events: none;
+    border: 0;
+  }
+}

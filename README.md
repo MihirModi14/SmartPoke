@@ -1,5 +1,7 @@
 ## SmartPoke
 
+The SmartPoke App is a user-friendly and engaging application designed for Pokémon enthusiasts. With this app, you can dive into the fascinating world of Pokémon, accessing an extensive list of all available Pokémon species and their detailed information.
+
 ## Configuration
 
 - Technology: `React + TypeScript + Vite`

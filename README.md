@@ -1,61 +1,46 @@
-# React + TypeScript + Vite
+## SmartPoke
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Configuration
 
-Currently, two official plugins are available:
+- Technology: `React + TypeScript + Vite`
+- Package manager: `yarn`
+- Styling: `React styled component + scss`
+- Routing: `React Router V6`
+- Forms: `React Final Forms`
+- Common stories: `StoryBook`
+- Http requests: `Axios`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Note:
 
-## Expanding the ESLint configuration
+- Pages & component design: `Scss`
+- Storybook component design: `Styled Component`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Commands
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Upgrade dep. version: `yarn upgrade`
+- Install modules: `yarn`
+- Start server: `yarn dev`
+- Start storybook server: `yarn run storybook`
+- Generate build: `yarn build`
 
 # Resources
 
-### Website: [Pokemon (Netlify)](https://mihirpokemon.netlify.app/)
+- Website: [SmartPoke (Netlify)](https://smartpoke.netlify.app)
+- Repository: [Pokemon App (GitHub)](https://github.com/MihirModi14/Pokemon-React)
 
-### Repository: [MihirModi Pokemon App (Gitlab)](https://gitlab.com/ss-frontend-training-may-22/mihirmodi-pokemon-app)
+### Deployed On, Aug 8 2023
+
+## About the Author
+
+Hi there! I'm Mihir Modi, the creator of this project. I'm passionate about programming and I embarked on this journey to make the world a better place.
+
+## Connect with me
+
+Feel free to reach out if you have any questions, suggestions, or just want to connect. You can find me at:
+
+- [LinkedIn](https://www.linkedin.com/in/mihirmodi14/)
+- [GitHub](https://github.com/MihirModi14)
+- [Telegram](https://t.me/MihirModi14)
+- Email: [modimihir960@gmail.com](mailto:modimihir960@gmail.com)
+
+Thank you for checking out my project, and I hope you find it useful and inspiring!

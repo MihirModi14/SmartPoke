@@ -28,7 +28,7 @@ export const useFetch = (
     // SHOW 'MAX_SEARCH_RESULT_SIZE' RESULTS IF USER SEARCH BY THE NAME
     const filteredList: PokemonModel[] = pokemonList
       .filter((pokemon: PokemonModel) => {
-        return pokemon.name.includes(pokemonName);
+        return pokemon.name.includes(pokemonName.toLocaleLowerCase());
       })
       .slice(0, MAX_SEARCH_RESULT_SIZE);
     return filteredList;
